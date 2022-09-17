@@ -1,7 +1,7 @@
 const arr = [5,3,6,2,10]
 let count = 0
 
-function selectionSort(array) {
+const selectionSort = (array) => {
     for (let i = 0; i < array.length; i++) {
         let smallestIndex = i
         for (let j = i+1; j < array.length; j++){

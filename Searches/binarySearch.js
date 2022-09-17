@@ -1,6 +1,6 @@
 const list = [1,3,5,7,9]
 
-function binarySearch(list, target){
+const binarySearch = (list, target) => {
   let low = 0;
   let high = list.length - 1;
 
